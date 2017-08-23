@@ -50,6 +50,11 @@ X = [ones(m, 1) X];		% X is now (m x (n+1))
 %         fmincg (@(t)(lrCostFunction(t, X, (y == c), lambda)), ...
 %                 initial_theta, options);
 %
+%%		We have 5000 handwriting samples of numbers from 0 - 9 (0 being tagged as 10) - 500 samples of each
+%%		Each set of samples is a class - we have 10 classes
+%%		We are building a solution below to loop through each class and using the costfunction we have created earlier
+%%		compute (n+1) values of theta for each class
+%%		For each class with 500 samples, every sample is broken down into a vector of 400 elements.  We add an initial element (theta0 = 1)
 
 for c = 1:num_labels
 
