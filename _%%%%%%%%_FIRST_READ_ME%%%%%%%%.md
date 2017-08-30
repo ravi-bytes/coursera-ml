@@ -1,5 +1,5 @@
 # coursera-ml
-Solutions to Coursera ML
+Solutions to Coursera ML Exercises.
 
 NOTE - the author does not encourage any plagiarism by users of this code.
 The intent of sharing this code is for users who have difficulty with the tests to attempt it on their own.
